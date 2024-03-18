@@ -1,7 +1,16 @@
+@charset "utf-8"
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
+
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+ }
+
 :root {
     
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
@@ -13,24 +22,30 @@ header {
     text-align: center;
     color: white;
     font-family: var(--fonte2);
-    
-    
+        
+}
+
+header > h1 {
+    font-size: 103px;
+    font-family:var(--fonte2) ;
+    font-style: bold;
+    padding-top: 50px;
+    font-variant: small-caps;
+   
 }
 
 header p {
+    padding-top: 50px;
     font-size: 1em;
 }
-h1 {
-    font-size: 103px;
-    font-style: bold;
-   
-    border: 0px;
-   
-}
 
-body {
-    border: 0px;
-   
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
 }
 
 section {
@@ -40,11 +55,30 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-size: 3.5vw;
+    font-size: 2.5vw;
 }
 
 
 section.normal {
     background-color: white;
     color: black;
+}
+
+section.imagem {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
 }

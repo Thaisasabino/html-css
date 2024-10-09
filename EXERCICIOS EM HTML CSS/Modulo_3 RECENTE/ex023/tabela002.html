@@ -13,23 +13,34 @@
     table {
         width: 500px;
         border-collapse: collapse;
+        position: relative;
     }
 
     td, th {
-        border: 1px solid black;
-        padding: 10px;
+        border: 1px solid blueviolet;
+        padding: 12px;
     }
 
     caption {
-        font-size:  ;
+        font-size: 2em;
+        font-weight: bold;
+        padding: 10px;
     }
 
     thead, tfoot{
-        background-color: gray;
+        background-color: blueviolet;
         color: azure;
     }
 
+    thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: blueviolet;
+    }
 
+    tbody> tr:nth-child(2n)   {
+        background-color: lightblue  ;
+    }
 
     td.num {
         text-align: right;
@@ -75,17 +86,22 @@
 
             <tr>
                 <td>São Paulo</td>
-                <td class="num">45900049</td>
+                <td class="num">45.900.049</td>
             </tr>
             
             <tr>
                 <td>Minas Gerais</td>
-                <td class="num">21264943</td>
+                <td class="num">21.264.943</td>
             </tr>
 
             <tr>
                 <td>Espírito Santo</td>
-                <td class="num">21262104</td>
+                <td class="num">21.262.104</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">41.562.104</td>
             </tr>
 
         </tbody>
@@ -98,5 +114,38 @@
         </tfoot>
 
     </table>
+
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam doloremque distinctio obcaecati quae tenetur, officiis fuga magni! Repellendus suscipit asperiores dolorum, recusandae quos error sed molestias dignissimos magni harum natus?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste dolores optio provident ducimus assumenda fugiat eum nemo deleniti corporis, sint illum? Nulla alias totam libero doloribus officiis voluptatum! Nemo, architecto?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, ratione? Dolor at provident asperiores id excepturi, omnis illum nesciunt quam porro quaerat inventore quibusdam ad fugit facere, itaque laborum! Laboriosam?
+    
+    </p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam doloremque distinctio obcaecati quae tenetur, officiis fuga magni! Repellendus suscipit asperiores dolorum, recusandae quos error sed molestias dignissimos magni harum natus?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste dolores optio provident ducimus assumenda fugiat eum nemo deleniti corporis, sint illum? Nulla alias totam libero doloribus officiis voluptatum! Nemo, architecto?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, ratione? Dolor at provident asperiores id excepturi, omnis illum nesciunt quam porro quaerat inventore quibusdam ad fugit facere, itaque laborum! Laboriosam?
+    
+    </p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam doloremque distinctio obcaecati quae tenetur, officiis fuga magni! Repellendus suscipit asperiores dolorum, recusandae quos error sed molestias dignissimos magni harum natus?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste dolores optio provident ducimus assumenda fugiat eum nemo deleniti corporis, sint illum? Nulla alias totam libero doloribus officiis voluptatum! Nemo, architecto?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, ratione? Dolor at provident asperiores id excepturi, omnis illum nesciunt quam porro quaerat inventore quibusdam ad fugit facere, itaque laborum! Laboriosam?
+    
+    </p>
+
+
+    
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam doloremque distinctio obcaecati quae tenetur, officiis fuga magni! Repellendus suscipit asperiores dolorum, recusandae quos error sed molestias dignissimos magni harum natus?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste dolores optio provident ducimus assumenda fugiat eum nemo deleniti corporis, sint illum? Nulla alias totam libero doloribus officiis voluptatum! Nemo, architecto?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, ratione? Dolor at provident asperiores id excepturi, omnis illum nesciunt quam porro quaerat inventore quibusdam ad fugit facere, itaque laborum! Laboriosam?
+    
+    </p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam doloremque distinctio obcaecati quae tenetur, officiis fuga magni! Repellendus suscipit asperiores dolorum, recusandae quos error sed molestias dignissimos magni harum natus?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste dolores optio provident ducimus assumenda fugiat eum nemo deleniti corporis, sint illum? Nulla alias totam libero doloribus officiis voluptatum! Nemo, architecto?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, ratione? Dolor at provident asperiores id excepturi, omnis illum nesciunt quam porro quaerat inventore quibusdam ad fugit facere, itaque laborum! Laboriosam?
+    
+    </p>
 </body>
 </html>
